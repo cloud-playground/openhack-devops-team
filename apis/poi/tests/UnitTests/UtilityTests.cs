@@ -8,6 +8,7 @@ namespace UnitTests
         [Fact]
         public void TestLoggingEvents()
         {
+            throw new NotImplementedException("Not fully implemented.");
             Assert.Equal(1009, LoggingEvents.Healthcheck);
             Assert.Equal(2001, LoggingEvents.GetAllPOIs);
             Assert.Equal(2002, LoggingEvents.GetPOIByID);
